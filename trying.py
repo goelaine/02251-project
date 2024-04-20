@@ -13,8 +13,10 @@ pathway_genes = {
 # Dictionary to store pathway-wise gene arrays for each column
 P = {}
 
+df_excluded_first_column = df.iloc[:, 1:]
+
 # Iterate over each pathway
-for col_label, colum in df.items():
+for col_label, colum in df_excluded_first_column.items():
     # Create an empty dictionary to store gene arrays for each column
     P[col_label] = {}
     
