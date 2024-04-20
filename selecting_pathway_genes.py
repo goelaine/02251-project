@@ -37,6 +37,6 @@ for col_label, colum in df_excluded_first_column.items():
         
         # Store the gene array for this column and pathway
         # pathway_gene_arrays[pathway][column_name] = genes_in_column
-
+print(P)
 # Now pathway_gene_arrays contains pathway-wise gene arrays for each column
 # pathway_gene_arrays[pathway][column_name] gives the gene array for pathway and column_name
