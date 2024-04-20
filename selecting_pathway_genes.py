@@ -1,12 +1,12 @@
 import pandas as pd
 
 # Load the CSV file into a pandas DataFrame
-df = pd.read_csv("your_csv_file.csv", skiprows = [1,2])
+df = pd.read_csv("compbio project csv manipulation core genes testing - Sheet1.csv", skiprows = [1,2])
 
 # Your dictionary of pathways (pathway to set of genes)
 pathway_genes = {
-    "pathway1": {"gene1", "gene2", "gene3"},
-    "pathway2": {"gene4", "gene5", "gene6"},
+    "A": {"123", "234", "345"},
+    "B": {"123", "345", "567"},
     # Add more pathways as needed
 }
 
