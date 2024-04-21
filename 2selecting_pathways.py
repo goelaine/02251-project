@@ -89,10 +89,18 @@ for patient in G:
         n = len(sortedExp)
         # for i in range(len(sortedExp)):
         for i in range(min):
-            score = sortedExp[i] * (n - i) / n
+            score = sortedExp[i] * (min - i) / min
             #ASD;LKFJAS;DLFJS SHOULD BE N HERE? OR MIN? IDKKKKKKKKDKFA;LSDKJFA;LSKDJF;ALKJSDF;LKAJ
             total += score
         G[patient][pathway] = total
 
 # Now pathway_gene_arrays contains pathway-wise gene arrays for each column
 # pathway_gene_arrays[pathway][column_name] gives the gene array for pathway and column_name
+
+# Convert the dictionary to a DataFrame
+patients_pathways = pd.DataFrame.from_dict(G, orient='index')
+
+# Write the DataFrame to a CSV file
+patients_pathways.to_csv("patientrows_pathwaycolumns.csv", index_label='Index')
+
+print("CSV file saved successfully.")
