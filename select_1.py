@@ -6,7 +6,7 @@ from get_symbols import *
 def extract_substring(text):
     return text.split('|')[0]
 
-df = pd.read_csv("/Users/goelaine314/sklearn-venv/TNexp.csv", skiprows = [1])
+df = pd.read_csv("/Users/goelaine314/sklearn-venv/02251-project/TNexp.csv", skiprows = [1])
 
 df.iloc[:, 0] = df.iloc[:, 0].str.split('|').str[0]
 
