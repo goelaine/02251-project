@@ -1,0 +1,3 @@
+{
+  "PID_LPA4_PATHWAY" : {"systematicName":"M56","pmid":"18832364","exactSource":"","geneSymbols":["ADCY1","ADCY2","ADCY3","ADCY4","ADCY5","ADCY6","ADCY7","ADCY8","ADCY9","CREB1","GNAL","LPAR4","PRKACA","PRKCE","RPS6KA5"],"msigdbURL":"https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/PID_LPA4_PATHWAY","externalDetailsURL":[],"filteredBySimilarity":[],"externalNamesForSimilarTerms":[],"collection":"C2:CP:PID"}
+}

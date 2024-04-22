@@ -1,0 +1,3 @@
+{
+  "REACTOME_CYCLIN_A_B1_B2_ASSOCIATED_EVENTS_DURING_G2_M_TRANSITION" : {"systematicName":"M808","pmid":"","exactSource":"R-HSA-69273","geneSymbols":["CCNA1","CCNA2","CCNB1","CCNB2","CCNH","CDC25A","CDC25B","CDC25C","CDK1","CDK2","CDK7","FOXM1","LCMT1","MNAT1","PKMYT1","PLK1","PPME1","PPP2CA","PPP2CB","PPP2R1A","PPP2R1B","PPP2R2A","PPP2R3B","WEE1","XPO1"],"msigdbURL":"https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/REACTOME_CYCLIN_A_B1_B2_ASSOCIATED_EVENTS_DURING_G2_M_TRANSITION","externalDetailsURL":["https://www.reactome.org/content/detail/R-HSA-69273"],"filteredBySimilarity":[],"externalNamesForSimilarTerms":[],"collection":"C2:CP:REACTOME"}
+}

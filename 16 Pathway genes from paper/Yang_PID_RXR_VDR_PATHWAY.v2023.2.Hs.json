@@ -1,0 +1,3 @@
+{
+  "PID_RXR_VDR_PATHWAY" : {"systematicName":"M162","pmid":"18832364","exactSource":"","geneSymbols":["ABCA1","BCL2","FAM120B","MED1","NCOA1","NCOR2","NR1H2","NR1H3","NR1H4","NR4A1","PPARA","PPARD","PPARG","RARA","RARB","RARG","RPS6KB1","RXRA","RXRB","RXRG","SREBF1","TGFB1","THRA","THRB","TNF","VDR"],"msigdbURL":"https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/PID_RXR_VDR_PATHWAY","externalDetailsURL":[],"filteredBySimilarity":[],"externalNamesForSimilarTerms":[],"collection":"C2:CP:PID"}
+}
