@@ -3,7 +3,7 @@ import os
 import json
 # Get the list of all files and directories
 def getDict():
-    path = '/Users/wanbo/Desktop/Pathway genes'
+    path = '/Users/wanbo/Desktop/Pathway genes' #A;SLDKJFA;LKSDJF;LK NEED TO CHANGE
     dir_list = os.listdir(path)
 
     composite = dict()
